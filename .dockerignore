@@ -1,0 +1,6 @@
+.venv/
+artifacts/
+**/__pycache__/
+*.ipynb
+*.pdf
+.DS_Store

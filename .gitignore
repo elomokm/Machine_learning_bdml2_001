@@ -1,0 +1,29 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données brutes (86 Mo, PS2.txt dépasse la limite conseillée de GitHub) : à placer dans data/
+data/
+
+# Généré par prepare.py
+artifacts/
+
+# Modèles sauvegardés (réentraînés au lancement de l'appli)
+*.pkl
+*.joblib
+
+# Streamlit : secrets éventuels
+.streamlit/secrets.toml
+
+# Secrets
+.env
+.env.*
+
+# OS / éditeurs
+.DS_Store
+.vscode/
+.idea/
